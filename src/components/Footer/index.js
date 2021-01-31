@@ -1,12 +1,13 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
   background-color: #00000070;
-  padding: 20px;
+  padding: 10px 25px 10px 25px;
   display: flex;
   align-items: center;
-  border-radius: 4px; 
+  border: 1px solid ${({ theme }) => theme.colors.primary};
+  border-radius: 10px 25px 10px 25px; 
   img {
     width: 58px;
     margin-right: 23px;
