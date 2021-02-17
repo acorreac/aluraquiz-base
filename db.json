@@ -1,28 +1,52 @@
 {
     "bg": "https://w.wallha.com/ws/9/rTPFc5O6.jpg",
-    "title": "SUPER LUIGI",
+    "title": "SUPER LUIGI QUIZ",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://media.giphy.com/media/JsLeGG6QfNlpS/giphy.gif",
+        "title": "Quem foi o criador do personagem Luigi?",
+        "description": "Dica: É Japonês rsrsrsrs",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Tetsuya Nomura",
+          "Katsuya Eguchi",
+          "Shigeru Miyamoto",
+          "Hironobu Sakaguchi"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "image": "https://media.giphy.com/media/qxrcHNbjSTEEE/giphy.gif",
+        "title": "Em que ano ocorreu a primeira aparição do personagem nos jogos da Nintendo?",
         "description": "Faz tempo em haha",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "1995",
+           "1983",
+           "1993",
+           "1985"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/vi2ciYHi5u0FO/giphy.gif",
+        "title": "O que o Luigi é do Mario?",
+        "description": "Dica: É Família",
+        "answer": 1,
+        "alternatives": [
+          "Amigo",
+          "Primo",
+          "Cunhado",
+          "Irmão"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/9FgcJtvVEwlxe/giphy.gif",
+        "title": "Quem é o mais velho?",
+        "description": "Pergunta fácil em!!",
+        "answer": 1,
+        "alternatives": [
+          "Luigi",
+          "Mario"
         ]
       }
     ],
@@ -31,13 +55,14 @@
     ],
     "theme": {
       "colors": {
-        "primary": "#009688",
-        "secondary": "#29b6f6",
+        "primary": "#ffff00",
+        "secondary": "#b28900",
         "mainBg": "#171B35",
         "contrastText": "#FFFFFF",
+        "text": "#212121",
         "wrong": "#FF5722",
         "success": "#4CAF50"
       },
-      "borderRadius": "4px"
+      "borderRadius": "10px 25px 10px 25px;"
     }
   }
